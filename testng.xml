@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNGs">
+ <test name="Test Annotations">
+  <classes>
+   <class name="ixigo.FlightBooking">
+   </class>
+  </classes>
+ </test>
+</suite>

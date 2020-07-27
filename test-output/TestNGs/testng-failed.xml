@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGs]">
+  <test thread-count="5" name="Test Annotations(failed)">
+    <classes>
+      <class name="ixigo.FlightBooking">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="selectFlight"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ixigo.FlightBooking -->
+    </classes>
+  </test> <!-- Test Annotations(failed) -->
+</suite> <!-- Failed suite [TestNGs] -->

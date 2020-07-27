@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[driver initiated]]>
+    </line>
+    <line>
+      <![CDATA[Application opened]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser]]>
+    </line>
+    <line>
+      <![CDATA[List of Cities]]>
+    </line>
+    <line>
+      <![CDATA[from city selected]]>
+    </line>
+    <line>
+      <![CDATA[To City selected]]>
+    </line>
+    <line>
+      <![CDATA[Travel date selected]]>
+    </line>
+    <line>
+      <![CDATA[Return date selected]]>
+    </line>
+    <line>
+      <![CDATA[Travellers details]]>
+    </line>
+    <line>
+      <![CDATA[Adults selected]]>
+    </line>
+    <line>
+      <![CDATA[Child selected]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on more filter]]>
+    </line>
+    <line>
+      <![CDATA[How many stopage]]>
+    </line>
+    <line>
+      <![CDATA[Timing filter]]>
+    </line>
+    <line>
+      <![CDATA[Airlines selected]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Apply filter]]>
+    </line>
+    <line>
+      <![CDATA[Lowest price]]>
+    </line>
+    <line>
+      <![CDATA[PNR Number]]>
+    </line>
+    <line>
+      <![CDATA[Trip Date]]>
+    </line>
+    <line>
+      <![CDATA[quit the browser]]>
+    </line>
+    <line>
+      <![CDATA[Kill the driver.exe]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72931" started-at="2020-07-28T04:05:50 IST" finished-at="2020-07-28T04:07:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72931" started-at="2020-07-28T04:05:50 IST" finished-at="2020-07-28T04:07:03 IST">
+      <class name="ixigo.FlightBooking">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:ixigo.FlightBooking@480bdb19]" name="launchApplication" is-config="true" duration-ms="18585" started-at="2020-07-28T04:05:50 IST" finished-at="2020-07-28T04:06:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver initiated]]>
+            </line>
+            <line>
+              <![CDATA[Application opened]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="searchFlight()[pri:1, instance:ixigo.FlightBooking@480bdb19]" name="searchFlight" duration-ms="18728" started-at="2020-07-28T04:06:08 IST" finished-at="2020-07-28T04:06:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[List of Cities]]>
+            </line>
+            <line>
+              <![CDATA[from city selected]]>
+            </line>
+            <line>
+              <![CDATA[To City selected]]>
+            </line>
+            <line>
+              <![CDATA[Travel date selected]]>
+            </line>
+            <line>
+              <![CDATA[Return date selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method status="PASS" signature="travellerDetails()[pri:2, instance:ixigo.FlightBooking@480bdb19]" name="travellerDetails" duration-ms="1314" started-at="2020-07-28T04:06:27 IST" finished-at="2020-07-28T04:06:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Travellers details]]>
+            </line>
+            <line>
+              <![CDATA[Adults selected]]>
+            </line>
+            <line>
+              <![CDATA[Child selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- travellerDetails -->
+        <test-method status="PASS" signature="applyFilter()[pri:3, instance:ixigo.FlightBooking@480bdb19]" name="applyFilter" duration-ms="29025" started-at="2020-07-28T04:06:29 IST" finished-at="2020-07-28T04:06:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on more filter]]>
+            </line>
+            <line>
+              <![CDATA[How many stopage]]>
+            </line>
+            <line>
+              <![CDATA[Timing filter]]>
+            </line>
+            <line>
+              <![CDATA[Airlines selected]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Apply filter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- applyFilter -->
+        <test-method status="FAIL" signature="selectFlight()[pri:4, instance:ixigo.FlightBooking@480bdb19]" name="selectFlight" duration-ms="2898" started-at="2020-07-28T04:06:58 IST" finished-at="2020-07-28T04:07:00 IST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: The result of the xpath expression "//*[@id='content']/div/div[4]/div[1]/div/div[2]/div/div[3]/div/div[2]/button/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RITURAJ', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\vio\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 28faff5f67c32acfca62b6a13775247b
+*** Element info: {Using=xpath, value=//*[@id='content']/div/div[4]/div[1]/div/div[2]/div/div[3]/div/div[2]/button/text()}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id='content']/div/div[4]/div[1]/div/div[2]/div/div[3]/div/div[2]/button/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RITURAJ', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\vio\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 28faff5f67c32acfca62b6a13775247b
+*** Element info: {Using=xpath, value=//*[@id='content']/div/div[4]/div[1]/div/div[2]/div/div[3]/div/div[2]/button/text()}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at ixigo.FlightBooking.selectFlight(FlightBooking.java:219)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Lowest price]]>
+            </line>
+            <line>
+              <![CDATA[PNR Number]]>
+            </line>
+            <line>
+              <![CDATA[Trip Date]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ixigo.FlightBooking@480bdb19]" name="tearDown" is-config="true" duration-ms="1976" started-at="2020-07-28T04:07:01 IST" finished-at="2020-07-28T04:07:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[quit the browser]]>
+            </line>
+            <line>
+              <![CDATA[Kill the driver.exe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ixigo.FlightBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
